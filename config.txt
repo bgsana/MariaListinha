@@ -1,0 +1,24 @@
+Configurando o git
+git config --global user.name bgsana
+git config --global user.email bgs.ana08@gmail.com
+--------------------------------------------------
+Listar os SDKs (versão)
+dotnet --list-sdks
+--------------------------------------------------
+Help
+dotnet --h
+--------------------------------------------------
+Criando um projeto MVC
+dotnet new mvc -o Vereda-Cafeteria
+--------------------------------------------------
+Executar projeto
+cd Vereda-Cafeteria
+dotnet watch run
+
+Pacotes
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.9
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.9
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.0.0
