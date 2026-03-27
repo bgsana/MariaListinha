@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using MariaListinha.Data;
+using MariaListinha.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
