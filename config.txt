@@ -12,7 +12,7 @@ Criando um projeto MVC
 dotnet new mvc -o Vereda-Cafeteria
 --------------------------------------------------
 Executar projeto
-cd Vereda-Cafeteria
+cd MariaListinha
 dotnet watch run
 
 Pacotes
